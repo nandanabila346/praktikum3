@@ -1,11 +1,9 @@
 package array_collection;
 
-import java.util.HashMap;
-
-public class MyHashMap {
+public class HashMap {
     public static void main(String[] args) {
-        // Membuat HashMap untuk menyimpan data nama dan nilai
-        HashMap<String, Integer> studentScores = new HashMap<>();
+        // Gunakan HashMap bawaan Java dengan nama lengkap (fully qualified)
+        java.util.HashMap<String, Integer> studentScores = new java.util.HashMap<>();
 
         // Menambahkan data ke HashMap
         studentScores.put("Nanda", 85);
